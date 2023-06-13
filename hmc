@@ -59,7 +59,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             configs.main.enabled = true
             if configs.main.notifications == true then
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "sin.#0245",
+                    Title = "mayhem.lua",
                     Text = "beaming;  " .. tostring(Plr.Character.Humanoid.DisplayName)
                 })
             end
