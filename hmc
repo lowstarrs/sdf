@@ -147,11 +147,3 @@ mt.__namecall = newcclosure(function(...)
     end
     return old(...)
 end)
-
-game.Players.PlayerAdded:Connect(function(Padd)
-     if Padd:IsInGroup(16739312) then
-         print(Padd.Name, "whitelisted"
-     else
-         Padd:Kick("nigga your not whitelisted 💀"
-     end
-end)
