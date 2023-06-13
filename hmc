@@ -28,7 +28,7 @@ local Mouse = game.Players.LocalPlayer:GetMouse()
 
 function makemarker(Parent, Adornee, Color, Size, Size2)
     local box = Instance.new("BillboardGui", Parent)
-    box.Name = "sin.#0245"
+    box.Name = "mayhem.lua"
     box.Adornee = Adornee
     box.Size = UDim2.new(Size, Size2, Size, Size2)
     box.AlwaysOnTop = true
@@ -50,7 +50,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             if configs.main.notifications == true then
                 Plr = FindClosestUser()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "aired#0904",
+                    Title = "mayhem.lua",
                     Text = "Unlocked;"
                 })
             end
